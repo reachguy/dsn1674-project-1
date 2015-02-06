@@ -6,6 +6,7 @@ html {
 
 main {
   margin: 8px;
+  font-family: georgia;
 }
 
 body {
@@ -24,17 +25,19 @@ h1 {
   color: #b32f52;
   text-align: center;
   font-size: 2rem;
-  font-family: 'Bevan', cursive;
+  font-family: 'Sigmar One', cursive;
 }
 
 h2 {
   color: #b32f52;
-  font-family: 'Bevan', cursive;
+  font-family: 'Sigmar One', cursive;
+  border-top: 4px solid #ffe524;
+  padding-top: 15px;
 }
 
 h3 {
   color: #b32f52;
-  font-family: 'Bevan', cursive;
+  font-family: 'Sigmar One', cursive;
 }
 
 img {
@@ -57,7 +60,7 @@ blockquote {
   font-size: 1rem;
   font-style: italic;
   color: #baa218;
-  line-height: 1;
+  line-height: 1.5;
   text-align: center;
 }
 
@@ -67,6 +70,7 @@ ol {
   list-style-type: none;
   background-color: #ffe524;
   display: block;
+  padding: 0;
 }
 
 ul {
@@ -107,11 +111,11 @@ p {
   font-style: normal; /* italic, normal */
   text-decoration: none; /* underline, none, line-through */
   text-align: left; /* left, center, right, justify */
-  font-family: sans-serif
+  font-family: georgia;
 }
 
 a{
-  color: #713837;
+  color: #b32f52;
 }
 
 }
@@ -119,6 +123,10 @@ nav ol {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  text-align: center;
+}
+
+nav {
   text-align: center;
 }
 
@@ -134,6 +142,7 @@ nav a {
   text-decoration: none;
   border-radius: 5px;
   margin: 0 0 0.2em 0;
+  text-align: center;
 }
 
 nav a:hover {
@@ -141,8 +150,10 @@ nav a:hover {
 }
 
 footer {
-  background-color: white;
-  padding: 0 0 0.5em 0;
+  background-color: #ffe524;
+  padding: 1.5em 1.5em 1.5em 1.5em;
+  text-align: center;
+  font-size: 0.75rem;
 }
 
 footer ol{
