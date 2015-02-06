@@ -1,0 +1,164 @@
+html {
+  background-color:  #fff;
+  color: #000;
+  line-height: 1.5;
+}
+
+main {
+  margin: 8px;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: #ffe524;
+  padding: 0.25em 0.25em 0.25em 0.25em;
+  margin: 0 0em;
+  border: 0px none #000;
+  display: block;
+}
+
+h1 {
+  color: #b32f52;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Bevan', cursive;
+}
+
+h2 {
+  color: #b32f52;
+  font-family: 'Bevan', cursive;
+}
+
+h3 {
+  color: #79756f;
+  font-family: 'Bevan', cursive;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 0.75rem;
+  padding: 1em 1em 1em 1em;
+  border: solid #bcb9b2;
+  border-radius: 5px;
+  text-align: center;
+  margin: 5px;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #000;
+  line-height: 1;
+}
+
+ol {
+  list-style-type: none;
+  font-family: sans-serif;
+  list-style-type: none;
+  background-color: #ffe524;
+  display: block;
+}
+
+ul {
+  list-style-type: lower-roman;
+  font-family: sans-serif;
+}
+
+dl {
+  font-family: sans-serif;
+}
+
+dt {
+  font-weight: bold;
+}
+
+em {
+  color: #79756f;
+  font-weight: normal;
+  font-style: normal;
+}
+
+strong {
+  font-weight: normal;
+  font-style: italic;
+}
+
+b {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #79756f;
+}
+
+
+cite {
+  font-size: 1rem;
+  color: #79756f;
+}
+
+
+p {
+  font-style: normal; /* italic, normal */
+  text-decoration: none; /* underline, none, line-through */
+  text-align: left; /* left, center, right, justify */
+  font-family: sans-serif
+}
+
+a{
+  color: #713837;
+}
+
+}
+nav ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: #b2a215;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 0 0.2em 0;
+}
+
+nav a:hover {
+  background-color: #cc3865;
+}
+
+footer {
+  background-color: #79756f;
+  padding: 0 0 0.5em 0;
+}
+
+footer ol{
+  list-style-type: circle;
+}
+
+footer h2 {
+  color: white;
+  padding: 0.5em 0 0 0.5em;
+}
+
+blockquote footer {
+  background-color: #dbd6cf;
+}
+
+dd {
+  margin: 0px;
+}
