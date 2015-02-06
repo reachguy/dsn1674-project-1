@@ -55,8 +55,9 @@ figure {
 blockquote {
   font-size: 1.5rem;
   font-style: italic;
-  color: #000;
+  color: #baa218;
   line-height: 1;
+  text-align: center;
 }
 
 ol {
@@ -81,8 +82,7 @@ dt {
 }
 
 em {
-  color: #79756f;
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -91,16 +91,18 @@ strong {
   font-style: italic;
 }
 
-b {
+blockquote p {
   font-size: 2.2rem;
   font-weight: bold;
-  color: #79756f;
+  color: #baa218;
+  text-align: center;
+  margin: 0;
 }
 
 
 cite {
   font-size: 1rem;
-  color: #79756f;
+  color: #baa218;
 }
 
 
@@ -142,7 +144,7 @@ nav a:hover {
 }
 
 footer {
-  background-color: #79756f;
+  background-color: white;
   padding: 0 0 0.5em 0;
 }
 
@@ -156,7 +158,7 @@ footer h2 {
 }
 
 blockquote footer {
-  background-color: #dbd6cf;
+  background-color: white;
 }
 
 dd {
