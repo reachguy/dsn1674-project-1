@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-  color: #79756f;
+  color: #b32f52;
   font-family: 'Bevan', cursive;
 }
 
@@ -46,14 +46,15 @@ figure {
   font-family: sans-serif;
   font-size: 0.75rem;
   padding: 1em 1em 1em 1em;
-  border: solid #bcb9b2;
+  border: 2px solid #c5b844;
   border-radius: 5px;
   text-align: center;
   margin: 5px;
+  background-color: #fffce0;
 }
 
 blockquote {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-style: italic;
   color: #baa218;
   line-height: 1;
@@ -81,10 +82,6 @@ dt {
   font-weight: bold;
 }
 
-em {
-  font-weight: bold;
-  font-style: normal;
-}
 
 strong {
   font-weight: normal;
