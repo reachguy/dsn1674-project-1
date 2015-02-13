@@ -46,7 +46,7 @@ img {
 
 figure {
   font-style: italic;
-  font-family: sans-serif;
+  font-family: serif;
   font-size: 0.75rem;
   padding: 1em 1em 1em 1em;
   border: 2px solid #c5b844;
@@ -66,7 +66,7 @@ blockquote {
 
 ol {
   list-style-type: none;
-  font-family: sans-serif;
+  font-family: serif;
   list-style-type: none;
   background-color: #ffe524;
   display: block;
@@ -75,11 +75,11 @@ ol {
 
 ul {
   list-style-type: lower-roman;
-  font-family: sans-serif;
+  font-family: serif;
 }
 
 dl {
-  font-family: sans-serif;
+  font-family: serif;
 }
 
 dt {
